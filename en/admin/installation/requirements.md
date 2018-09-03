@@ -11,6 +11,12 @@ These libraries must be installed with a tool called Composer. You need
 to install it if you have not already done so and be sure to use the 1.2
 version (if you already have Composer, run a `composer selfupdate`).
 
+Depending on your system you might need to install the following requirements for Composer to build the run the Makefile correctly:
+
+- php-curl
+- php-mbstring
+- php-bcmath
+
 Install Composer:
 
     curl -s https://getcomposer.org/installer | php
